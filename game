@@ -1,0 +1,25 @@
+class Dot:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    def __eq__(self, other):
+        return self.x == other.x and self.y == other.y
+
+class Ship:
+    def __init__(self, lenght, dots ,orient, hp ):
+        self.lenght = lenght
+        self.dots = dots
+        self.orient = orient
+        self.hp = hp
+    def show_dots:
+        return self.dots
+
+class Board:
+    def __init__(self, board, ships, hid, alive):
+        self.board = board
+        self.ships = ships
+        self.hid = hid
+        self.alive = alive
+    
+
+
